@@ -8,3 +8,4 @@ This project demonostrates how to use lerna, nextjs, rollup, typescript and jest
 4. Reuse as much codes and configurations as possible.
 5. Auto publish all packages to public npm registery (in both es module and commonjs format)
 6. Auto deploy applications to production environment with github actions.
+7. Ensure all packages are tree-shakable.
