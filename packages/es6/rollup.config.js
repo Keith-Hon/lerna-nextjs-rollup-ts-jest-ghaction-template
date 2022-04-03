@@ -15,8 +15,6 @@ export default [
                 format: "es"
             }
         ],
-        plugins: [
-            resolve(),
-            typescript()
-        ]
-    }]
+        plugins: [resolve(), typescript()]
+    }
+];
