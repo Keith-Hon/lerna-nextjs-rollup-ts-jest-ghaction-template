@@ -12,5 +12,6 @@ describe("", () => {
     it("test", async () => {
         const res = await getGithubUserProfile();
         expect(res.status).toBe(200);
+        expect(res.data.login).toBe("moredeal-org");
     });
 })
