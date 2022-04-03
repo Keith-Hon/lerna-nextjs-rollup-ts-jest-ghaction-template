@@ -1,5 +1,5 @@
 {
-    "name": "@moredeal/es6-pkg",
+    "name": "es6-pkg",
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.cjs.js",

@@ -1,5 +1,5 @@
 {
-    "name": "@moredeal/es6-pkg-child",
+    "name": "es6-pkg-child",
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.cjs.js",
@@ -14,7 +14,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@moredeal/es6-pkg": "*"
+        "es6-pkg": "*"
     },
     "devDependencies": {
         "rimraf": "3.0.2",
