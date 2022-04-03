@@ -9,7 +9,6 @@
         "build": "yarn run clean && yarn run compile",
         "clean": "rimraf -rf ./dist",
         "compile": "rollup -c rollup.config.js",
-        "prepublishOnly": "yarn run build",
         "test": "jest --config jest.config.js"
     },
     "author": "",
@@ -19,5 +18,6 @@
         "rimraf": "3.0.2",
         "rollup": "1.31.0",
         "rollup-plugin-typescript2": "0.25.3"
-    }
+    },
+    "gitHead": "578ae35459d8dcec6f5c38b4a7113f5cb99c38c7"
 }
