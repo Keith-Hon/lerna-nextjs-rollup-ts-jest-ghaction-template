@@ -1,6 +1,6 @@
 {
     "name": "es6-pkg-child",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
@@ -14,12 +14,12 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "es6-pkg": "*"
+        "es6-pkg": "^1.0.1"
     },
     "devDependencies": {
+        "@rollup/plugin-node-resolve": "7.1.1",
         "rimraf": "3.0.2",
         "rollup": "1.31.0",
-        "@rollup/plugin-node-resolve": "7.1.1",
         "rollup-plugin-typescript2": "0.25.3"
     }
 }
