@@ -1,0 +1,20 @@
+{
+    "name": "es6-component-template",
+    "version": "1.0.0",
+    "description": "This is a es6 component package template",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "yarn run clean && yarn run compile && yarn run treeshake-check",
+        "clean": "rimraf -rf ./dist",
+        "compile": "rollup -c rollup.config.js",
+        "prepublishOnly": "yarn run build",
+        "test": "jest --config jest.config.js",
+        "treeshake-check": "agadoo"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {}
+}
