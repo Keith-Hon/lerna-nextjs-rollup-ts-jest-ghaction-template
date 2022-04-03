@@ -1,9 +1,10 @@
 {
-    "name": "es6-child-pkg-template",
+    "name": "custom-axios-template",
     "version": "1.0.0",
-    "description": "This is a es6 package using another es6 package",
+    "description": "This is a custom-axios package template",
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "yarn run clean && yarn run compile",
         "clean": "rimraf -rf ./dist",
@@ -14,8 +15,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "es6-pkg-template": "*",
-        "custom-axios-template": "*"
+        "axios": "0.26.1",
+        "axios-retry": "3.2.4"
     },
     "devDependencies": {}
 }

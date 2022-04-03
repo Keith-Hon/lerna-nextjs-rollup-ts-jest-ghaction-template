@@ -16,10 +16,5 @@
     "author": "",
     "license": "ISC",
     "dependencies": {},
-    "devDependencies": {
-        "rimraf": "3.0.2",
-        "rollup": "1.31.0",
-        "@rollup/plugin-node-resolve": "7.1.1",
-        "rollup-plugin-typescript2": "0.25.3"
-    }
+    "devDependencies": {}
 }

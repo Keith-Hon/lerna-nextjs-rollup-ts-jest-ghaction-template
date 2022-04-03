@@ -1,5 +1,5 @@
 import { CustomType } from "es6-pkg-template";
-import { addTwo } from "../src";
+import { addTwo, getGithubUserProfile } from "../src";
 
 describe("", () => {
     it("test", () => {
@@ -7,5 +7,10 @@ describe("", () => {
         const newArr = addTwo({ array: arr });
         expect(newArr[0].count).toBe(3);
         expect(newArr[1].count).toBe(4);
+    });
+
+    it("test", async () => {
+        const res = await getGithubUserProfile();
+        expect(res.status).toBe(200);
     });
 })
