@@ -14,6 +14,9 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v2
 
+            - name: Bootstrap mono repository
+              run: lerna bootstrap
+
             - name: Build mono repository
               run: lerna run build
 
