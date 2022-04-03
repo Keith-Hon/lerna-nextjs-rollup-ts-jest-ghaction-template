@@ -1,5 +1,5 @@
 {
-    "name": "rollup-test",
+    "name": "lerna-nextjs-rollup-ts-jest-template",
     "description": "TypeScript monorepo for Moredeal",
     "private": "true",
     "workspaces": [

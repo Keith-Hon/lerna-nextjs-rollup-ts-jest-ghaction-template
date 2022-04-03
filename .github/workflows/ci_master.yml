@@ -1,0 +1,24 @@
+name: master
+
+on:
+    workflow_dispatch:
+    push:
+        branches:
+            - master
+
+jobs:
+    CI_CD:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Bootstrap mono repository
+              run: lerna bootstrap
+
+            - name: Build mono repository
+              run: lerna run build
+
+            - name: Publish all packages
+              run: lerna publish

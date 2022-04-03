@@ -1,7 +1,7 @@
 {
-    "name": "es6-pkg",
+    "name": "es6-pkg-template",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is a es6 package template",
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
     "types": "dist/index.d.ts",

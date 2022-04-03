@@ -1,7 +1,7 @@
 {
-    "name": "es6-pkg-child",
+    "name": "es6-child-pkg-template",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is a es6 package using another es6 package",
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
     "scripts": {
@@ -14,7 +14,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "es6-pkg": "*"
+        "es6-pkg-template": "*"
     },
     "devDependencies": {
         "rimraf": "3.0.2",
