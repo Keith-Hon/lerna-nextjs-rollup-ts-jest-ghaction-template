@@ -1,0 +1,12 @@
+{
+    "name": "rollup-test",
+    "description": "TypeScript monorepo for Moredeal",
+    "private": "true",
+    "workspaces": ["packages/*"],
+    "scripts": {
+     
+    },
+    "devDependencies": {        
+       
+    }
+}
