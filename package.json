@@ -3,7 +3,8 @@
     "description": "TypeScript monorepo for Moredeal",
     "private": "true",
     "workspaces": [
-        "packages/*"
+        "packages/*",
+        "applications/*"
     ],
     "scripts": {},
     "devDependencies": {

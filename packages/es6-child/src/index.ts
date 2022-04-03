@@ -1,9 +1,7 @@
 import { getAxiosInstance } from "custom-axios-template";
 import { CustomType, addOne } from "es6-pkg-template";
 
-export function addTwo({ array }: {
-    array: CustomType[];
-}): CustomType[] {
+export function addTwo({ array }: { array: CustomType[] }): CustomType[] {
     return addOne({ array: addOne({ array }) });
 }
 
