@@ -20,5 +20,3 @@ jobs:
             - name: Build mono repository
               run: lerna run build
 
-            - name: Publish all packages
-              run: lerna publish
