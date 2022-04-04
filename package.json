@@ -1,15 +1,22 @@
 {
-    "name": "rollup-test",
+    "name": "lerna-nextjs-rollup-ts-jest-template",
     "description": "TypeScript monorepo for Moredeal",
     "private": "true",
     "workspaces": [
-        "packages/*"
+        "packages/*",
+        "applications/*"
     ],
     "scripts": {},
     "devDependencies": {
         "jest": "27.4.7",
         "ts-jest": "27.1.4",
         "typescript": "4.6.3",
-        "@types/jest": "27.4.1"
+        "@types/jest": "27.4.1",
+        "agadoo": "2.0.0",
+        "rimraf": "3.0.2",
+        "rollup": "1.31.0",
+        "@rollup/plugin-commonjs": "11.0.2",
+        "@rollup/plugin-node-resolve": "7.1.1",
+        "rollup-plugin-typescript2": "0.25.3"
     }
 }

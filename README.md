@@ -1,4 +1,4 @@
-This project demonostrates how to use lerna, nextjs, rollup, typescript and jest to build a mono repository. 
+This project demonostrates how to use lerna, nextjs, rollup, typescript and jest to build a mono repository.
 
 **Objectives**
 

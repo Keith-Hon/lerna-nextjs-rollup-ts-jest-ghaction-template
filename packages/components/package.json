@@ -1,13 +1,10 @@
 {
-    "name": "es6-pkg-template",
+    "name": "es6-component-template",
     "version": "1.0.0",
-    "description": "This is a es6 package template",
+    "description": "This is a es6 component package template",
     "main": "dist/index.cjs.js",
     "module": "dist/index.es.js",
     "types": "dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
     "scripts": {
         "build": "yarn run clean && yarn run compile && yarn run treeshake-check",
         "clean": "rimraf -rf ./dist",
